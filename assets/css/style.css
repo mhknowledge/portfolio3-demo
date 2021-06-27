@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-size: 20px;
+    color: black;
+    font-family: cursive;
+    background-image: url("../images/bg2.JPG");
+   
+}
+
+
+
+.header {
+    padding: 40px;
+    background-color:cadetblue;
+    color:cornsilk;
+    background-image: url("../images/background.JPG");
+    background-size: cover;
+    }
+
+.header h1{
+    display: inline-block;
+    font-size: 45px;
+    margin-left: 0px;
+}
+
+.header nav{
+    margin-right: 20px;
+    float: right;
+}
+
+.header nav ul{
+    list-style-type: none;
+}
+
+.header nav ul li{
+    display: inline;
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(9, 16, 117);
+}
+
+p {
+    font-size: 24px;
+    text-align: left;
+    /* font-weight: bold; */
+}
+
+
+img{
+    margin-left: 20px;
+    width: 20%;
+    height: 345px;
+    border: 5px solid rgb(54, 53, 53); 
+}
+
+/* .content {
+    width: 70%;
+    display:inline-block;
+    margin-left: 20px;
+}
+.content2 {
+    width: 55%;
+    display: inline-block;
+    margin-left: 700px;
+}
+
+.content3 {
+    width: 36%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content3 ul li a {
+    color: whitesmoke;
+}  */
+
+.about-me
+ {
+
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 300px;
+    background-color: rgb(33, 226, 146);
+    color: #ffffff;
+}
+.Repositories {
+    margin: 20px;
+    padding: 30px;
+    height: 300px;
+    background-color: rgb(33, 226, 146);
+    color: #ffffff;
+}
+.contact-me {
+    margin-bottom: 20px;
+    padding: 30px;
+    height: 300px;
+    color: #ffffff;
+    background-color: rgb(33, 226, 146);
+}  
+
+.about-me h2,
+.contact-me h2,
+.myProjects h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+   
+} */
+
+/* .float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.about-me img{
+    max-height: 200px;
+} 
+.myProjects img {
+    max-height: 200px;
+    float:left;
+    margin-left: 60px;
+}
+
+  .row::after {
+    position:relative;
+    display:inline-flexbox;
+  } */
+/*codings adds the zoom out feature to the My Projects images */
+.zoom {
+margin-left: 50px;
+margin-right: 25px;
+}
+.zoom:hover{
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+.form {
+    margin-left: 25px;
+}
+/* Footer configs */
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    background-color: cornsilk;
+}
+/* h2, p, child of footer class, font size setting(s) */
+.footer h2,
+.footer p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* SEND button configs for the Contact Me section */
+button {
+    height: 35px;
+    width: 75px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 73px;
+}
+/*THE FOLLOWING SECTION OF CODE CONTAINS THE @MEDIA CONFIGS FOR DIFFERENT SCREEN SETTINGS */
+/*---------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
+
+/* @media screen and (max-width: 1418px){
+    body{background-image: url("../images/background.JPG");}
+    header {flex-direction: column;}
+    .header nav ul li{
+        display: inline;
+        margin-left: 25px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    img {
+        margin-left: 20px;
+        width: 25%;
+        height: 255px;
+        border: 5px solid rgb(54, 53, 53); 
+    }
+    .about-me img {
+        max-height: 150px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .content2 {
+        margin-left: 20px;
+        width: 70%;
+    }
+    .myProjects img {
+        margin: 15px;
+        max-height: 150px;
+    }
+    
+    .contact-me {
+        height: 325px;
+       
+    }
+
+}
+
+@media screen and (max-width: 742px ){
+
+    .contact-me {
+        height: 355px;
+       
+    }
+}
+
+@media screen and (max-width: 616px){
+    .myProjects img {
+        margin: 11px;
+        max-height: 100px;
+    }
+
+}
+@media screen and (max-width: 589px){
+    body{background-image: url("../images/background.JPG");}
+    header {flex-direction: column;}
+    .header nav ul li{
+        display: inline;
+        margin-left: 25px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    img {
+        margin-left: 20px;
+        width: 25%;
+        height: 175px;
+        border: 5px solid rgb(54, 53, 53); 
+    }
+    .about-me img {
+        max-height: 150px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .content,
+    .content2,
+    .content3 {
+        margin-left: 20px;
+        width: 100%;
+    }
+    .myProjects img {
+        margin: 15px;
+        max-height: 120px;
+    }
+    
+    .contact-me {
+        height: 325px;
+    }
+
+
+        
+} */
